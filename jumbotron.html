@@ -16,22 +16,53 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-image: url('./images/smTile.jpg');
+    min-height: 400px;
+
   }
 
-
+  .header1 {
+    padding: 60px;
+    text-align: center;
+    /* background: black; */
+    color: white;
+    font-size: 30px;
+  }
 
 </style>
 </head>
 
 <body>
 
-<div class="jumbotron text-center">
-  <div id = "jumbotron"  class="jumbotron bg-cover" style="background-image: linear-gradient(to bottom, rgba(255,255,255,0.6) 0%,rgba(255,255,255,0.9) 100%), url(C:\Users\Home\Downloads\FrameworkIndex.zip\images\smTile.jpg)">
-    <h1>My First Bootstrap Page</h1>
-    <h1>Amy B Kolb</h1>
-    <p></p>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Menu</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="#">Projects</a>
+        <a class="nav-item nav-link" href="#">Contact</a>
+
+      </div>
+    </div>
+  </nav>
+
+<div class="jumbotro text-center bg-cover">
+  <div>
+    <br>
+    <div style= "font-family: Courior New; background-color: #08088A; padding: 10px; margin: 10px; width: 350px; margin-left: 500px; opacity: .9; border-radius: 10px; border: 2px solid black;">
+    <br>
+    <h1 class="header" style="color: white">Bootstrap</h1>
+    <p style="color: white ">Amy B Kolb</p>
+    <br>
+
+    </div>
   </div>
 </div>
+
+
 
 <div class="container">
   <div class="row">
